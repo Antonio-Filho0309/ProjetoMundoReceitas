@@ -19,9 +19,9 @@
         public int Id { get; set; }
         public string RecipeName { get; set; }
 
-        public byte[] RecipeImage { get; set; }
+        public string RecipeImage { get; set; }
 
-        public bool RecipeAvaliation { get; set; }
+        public int RecipeAvaliation { get; set; }
 
         public string RecipeCust { get; set; }
 
