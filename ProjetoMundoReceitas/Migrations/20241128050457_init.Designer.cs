@@ -10,7 +10,7 @@ using ProjetoMundoReceitas.Data;
 namespace ProjetoMundoReceitas.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241128045329_init")]
+    [Migration("20241128050457_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -24,6 +24,9 @@ namespace ProjetoMundoReceitas.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
+
+                    b.Property<byte[]>("Image")
+                        .HasColumnType("BLOB");
 
                     b.Property<int>("RecipeAvaliation")
                         .HasColumnType("INTEGER");

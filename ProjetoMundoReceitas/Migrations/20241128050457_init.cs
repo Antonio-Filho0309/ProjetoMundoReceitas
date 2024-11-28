@@ -34,6 +34,7 @@ namespace ProjetoMundoReceitas.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     RecipeName = table.Column<string>(type: "TEXT", nullable: false),
+                    Image = table.Column<byte[]>(type: "BLOB", nullable: true),
                     RecipeAvaliation = table.Column<int>(type: "INTEGER", nullable: false),
                     RecipeCust = table.Column<string>(type: "TEXT", nullable: false),
                     RecipeDescription = table.Column<string>(type: "TEXT", nullable: false),
@@ -67,12 +68,12 @@ namespace ProjetoMundoReceitas.Migrations
 
             migrationBuilder.InsertData(
                 table: "Recipers",
-                columns: new[] { "Id", "RecipeAvaliation", "RecipeCust", "RecipeDescription", "RecipeIngredients", "RecipeMaterials", "RecipeName", "RecipePreparation", "UserId" },
+                columns: new[] { "Id", "Image", "RecipeAvaliation", "RecipeCust", "RecipeDescription", "RecipeIngredients", "RecipeMaterials", "RecipeName", "RecipePreparation", "UserId" },
                 values: new object[,]
                 {
-                    { 1, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 1 },
-                    { 2, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 2 },
-                    { 3, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 3 }
+                    { 1, null, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 1 },
+                    { 2, null, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 2 },
+                    { 3, null, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 3 }
                 });
 
             migrationBuilder.CreateIndex(

@@ -31,7 +31,6 @@ namespace ProjetoMundoReceitas.Controllers
         public ActionResult Post(CreateRecipeDto model)
 
         {
-
             var recipeDto = _mapper.Map<Recipe>(model);
             _repo.Add(recipeDto);
             if (_repo.SaveChanges())
@@ -42,12 +41,14 @@ namespace ProjetoMundoReceitas.Controllers
         }
 
         [HttpPut("{id}")]
-        public ActionResult Put(int id, Recipe recipe)
+        public ActionResult Put(int id, UpdateRecipeDto model)
         {
             var recip = _context.Recipers.AsNoTracking().FirstOrDefault(x => x.Id == id);
             if (recip == null) return BadRequest("Receita não encontrada");
 
-            _repo.Update(recipe);
+            _mapper.Map(model, recip);
+
+            _repo.Update(recip);
             if (_repo.SaveChanges())
             {
                 return Ok("Receita Atualizada");
@@ -59,8 +60,8 @@ namespace ProjetoMundoReceitas.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            var recipe = _context.Users.AsNoTracking().FirstOrDefault(x => x.Id == id);
-            _repo.Add(recipe);
+            var recipe = _context.Recipers.AsNoTracking().FirstOrDefault(x => x.Id == id);
+            _repo.Delete(recipe);
             if (_repo.SaveChanges())
             {
                 return Ok("Receita Deletada");

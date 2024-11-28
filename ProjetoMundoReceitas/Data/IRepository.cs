@@ -9,6 +9,7 @@ namespace ProjetoMundoReceitas.Data
         void Delete<T>(T entity) where T : class;
         bool SaveChanges();
 
+        //Usuário
         User[] GetUsers();
 
         //receita

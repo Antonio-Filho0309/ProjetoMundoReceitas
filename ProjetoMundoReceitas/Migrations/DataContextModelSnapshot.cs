@@ -22,6 +22,9 @@ namespace ProjetoMundoReceitas.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<byte[]>("Image")
+                        .HasColumnType("BLOB");
+
                     b.Property<int>("RecipeAvaliation")
                         .HasColumnType("INTEGER");
 

@@ -11,6 +11,7 @@ namespace ProjetoMundoReceitas.Helpers
         {
             CreateMap<User, UserDto>(); 
             CreateMap<Recipe, CreateRecipeDto>().ReverseMap();
+            CreateMap<Recipe, UpdateRecipeDto>().ReverseMap();
         }
     }
 }
