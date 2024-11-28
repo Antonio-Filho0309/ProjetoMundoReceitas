@@ -31,13 +31,39 @@ namespace ProjetoMundoReceitas.Controllers
         public ActionResult Post(CreateRecipeDto model)
 
         {
-            var recipeDto = _mapper.Map<Recipe>(model);
-            _repo.Add(recipeDto);
-            if (_repo.SaveChanges())
+            
+            if (model.Image != null && model.Image.Length > 0)
             {
-                return Ok("Receita Criada");
+               
+                using (var memoryStream = new MemoryStream())
+                {
+                     model.Image.CopyTo(memoryStream);
+                    var imageBytes = memoryStream.ToArray();
+                    model.Image = null; 
+
+                   
+                    var recipeDto = _mapper.Map<Recipe>(model);
+                    recipeDto.Image = imageBytes; // Adiciona a imagem convertida ao Recipe
+
+                    _repo.Add(recipeDto);
+                    if (_repo.SaveChanges())
+                    {
+                        return Ok("Receita Criada");
+                    }
+                }
             }
-            return BadRequest("Não foi possivel criar Receita");
+            else
+            {
+                // Se não tiver imagem, apenas mapeia e salva sem a imagem
+                var recipeDto = _mapper.Map<Recipe>(model);
+                _repo.Add(recipeDto);
+                if (_repo.SaveChanges())
+                {
+                    return Ok("Receita Criada sem Imagem");
+                }
+            }
+
+            return BadRequest("Não foi possível criar a Receita");
         }
 
         [HttpPut("{id}")]
