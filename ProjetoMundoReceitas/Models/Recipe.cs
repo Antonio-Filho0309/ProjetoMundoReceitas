@@ -19,8 +19,6 @@
         public int Id { get; set; }
         public string RecipeName { get; set; }
 
-        public string RecipeImage { get; set; }
-
         public int RecipeAvaliation { get; set; }
 
         public string RecipeCust { get; set; }
@@ -34,8 +32,8 @@
         public string RecipePreparation { get; set; }
 
         public int UserId { get; set; }
-        public User User { get; set; }
 
+        public User User { get; set; }
 
     }
 }
