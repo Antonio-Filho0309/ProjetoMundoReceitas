@@ -4,7 +4,7 @@
     {
         public Recipe() { }
 
-        public Recipe(int id, string recipeName, string recipeCust, string recipeDescription, string recipeIngredients, string recipeMaterials, string recipePreparation, int userId)
+        public Recipe(int id, string recipeName, string recipeCust, string recipeDescription, List<string> recipeIngredients, List<string> recipeMaterials, List<string> recipePreparation, int userId)
         {
             Id = id;
             RecipeName = recipeName;
@@ -27,11 +27,11 @@
 
         public string RecipeDescription { get; set; }
 
-        public string RecipeIngredients { get; set; }
+        public List<string> RecipeIngredients { get; set; }
 
-        public string RecipeMaterials { get; set; }
+        public List<string> RecipeMaterials { get; set; }
 
-        public string RecipePreparation { get; set; }
+        public List<string> RecipePreparation { get; set; }
 
         public int UserId { get; set; }
 

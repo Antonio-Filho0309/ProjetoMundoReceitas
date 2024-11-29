@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProjetoMundoReceitas.Data;
 using ProjetoMundoReceitas.Dto.User;
+using ProjetoMundoReceitas.Helpers;
 using ProjetoMundoReceitas.Models;
 using SQLitePCL;
 
@@ -23,9 +24,9 @@ namespace ProjetoMundoReceitas.Controllers
         }
 
         [HttpGet]
-        public ActionResult Get()
+        public async Task<ActionResult> Get([FromQuery]PageParams pageParams)
         {
-            var result = _repo.GetUsers();
+            var result = await _repo.GetUsersAsync(pageParams);
             return Ok(_mapper.Map<IEnumerable<UserDto>>(result));
         }
 
@@ -54,22 +55,5 @@ namespace ProjetoMundoReceitas.Controllers
             }
             return BadRequest("Usuário não Atualizado");
         }
-
-
-        [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
-        {
-            var user = _context.Users.AsNoTracking().FirstOrDefault(x => x.Id == id);
-            _repo.Delete(user);
-            if (_repo.SaveChanges())
-            {
-                return Ok("Usuário Deletado");
-            }
-            return BadRequest("Usuário não deletado");
-        }
-
-
-
-
     }
 }

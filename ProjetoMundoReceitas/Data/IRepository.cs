@@ -1,18 +1,20 @@
-﻿using ProjetoMundoReceitas.Models;
+﻿using ProjetoMundoReceitas.Helpers;
+using ProjetoMundoReceitas.Models;
 
 namespace ProjetoMundoReceitas.Data
 {
     public interface IRepository
     {
-        void Add<T>(T entity) where T: class;
+        void Add<T>(T entity) where T : class;
         void Update<T>(T entity) where T : class;
         void Delete<T>(T entity) where T : class;
         bool SaveChanges();
 
         //Usuário
-        User[] GetUsers();
+        Task<PageList<User>> GetUsersAsync(
+             PageParams pageParams);
 
         //receita
-        Recipe[] GetRecipes(bool includeUser);
+        Task<Recipe[]> GetRecipesAsync(bool includeUser);
     }
 }

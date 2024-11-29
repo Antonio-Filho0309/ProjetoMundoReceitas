@@ -71,9 +71,9 @@ namespace ProjetoMundoReceitas.Migrations
                 columns: new[] { "Id", "Image", "RecipeAvaliation", "RecipeCust", "RecipeDescription", "RecipeIngredients", "RecipeMaterials", "RecipeName", "RecipePreparation", "UserId" },
                 values: new object[,]
                 {
-                    { 1, null, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 1 },
-                    { 2, null, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 2 },
-                    { 3, null, 0, "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "Bolo da Negona", "TESTE", 3 }
+                    { 1, null, 0, "Custo medio", "MUITO GOSTOSO", "[\"Ingrediente 1\",\"Ingrediente 2\",\"Ingrediente 3\"]", "[\"Material 1\",\"Material 2\"]", "Bolo da Negona", "[\"Passo 1\",\"Passo 2\",\"Passo 3\"]", 1 },
+                    { 2, null, 0, "Custo medio", "MUITO GOSTOSO", "[\"Ingrediente A\",\"Ingrediente B\"]", "[\"Material X\",\"Material Y\"]", "Bolo da Negona", "[\"Passo A\",\"Passo B\"]", 2 },
+                    { 3, null, 0, "Custo medio", "MUITO GOSTOSO", "[\"Ingrediente M\",\"Ingrediente N\"]", "[\"Material Z\"]", "Bolo da Negona", "[\"Passo M\",\"Passo N\"]", 3 }
                 });
 
             migrationBuilder.CreateIndex(

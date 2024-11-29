@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProjetoMundoReceitas.Helpers;
 using ProjetoMundoReceitas.Models;
 
 namespace ProjetoMundoReceitas.Data
@@ -31,16 +32,17 @@ namespace ProjetoMundoReceitas.Data
             return (_context.SaveChanges() > 0);
         }
 
-        public User[] GetUsers()
+        public async Task<PageList<User>> GetUsersAsync(
+           PageParams pageParams )
         {
             IQueryable<User> query = _context.Users;
 
 
             query = query.AsNoTracking().OrderBy(a=> a.Id);
-            return query.ToArray();
+            return await PageList<User>.CreateAsync(query,pageParams.PageNumber, pageParams.PageSize);
         }
 
-        public Recipe[] GetRecipes(bool includeUser)
+        public async Task<Recipe[]> GetRecipesAsync(bool includeUser)
         {
             IQueryable<Recipe> query = _context.Recipers;
 
@@ -50,9 +52,9 @@ namespace ProjetoMundoReceitas.Data
             }
 
             query = query.AsNoTracking().OrderBy(a => a.Id);
-            return query.ToArray();
+            return  await query.ToArrayAsync();
         }
 
-       
+      
     }
 }

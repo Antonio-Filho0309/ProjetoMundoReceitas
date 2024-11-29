@@ -9,11 +9,11 @@
 
         public string RecipeDescription { get; set; }
 
-        public string RecipeIngredients { get; set; }
+        public List<string> RecipeIngredients { get; set; }
 
-        public string RecipeMaterials { get; set; }
+        public List<string> RecipeMaterials { get; set; }
 
-        public string RecipePreparation { get; set; }
+        public List<string> RecipePreparation { get; set; }
 
         public int UserId { get; set; }
 

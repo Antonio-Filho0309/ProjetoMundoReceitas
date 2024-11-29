@@ -22,8 +22,8 @@ namespace ProjetoMundoReceitas.Controllers
         }
 
         [HttpGet]
-        public ActionResult Get() {
-           var result = _repo.GetRecipes(true);
+        public async Task<ActionResult> Get() {
+           var result = await _repo.GetRecipesAsync(true);
             return Ok(result);
         }
 
@@ -65,21 +65,37 @@ namespace ProjetoMundoReceitas.Controllers
 
             return BadRequest("Não foi possível criar a Receita");
         }
-
         [HttpPut("{id}")]
-        public ActionResult Put(int id, UpdateRecipeDto model)
+        public IActionResult Put(int id, [FromForm] UpdateRecipeDto model)
         {
-            var recip = _context.Recipers.AsNoTracking().FirstOrDefault(x => x.Id == id);
-            if (recip == null) return BadRequest("Receita não encontrada");
+            // Busca a receita existente
+            var existingRecipe = _context.Recipers.FirstOrDefault(x => x.Id == id);
+            if (existingRecipe == null)
+            {
+                return NotFound("Receita não encontrada.");
+            }
 
-            _mapper.Map(model, recip);
+            // Atualiza os campos
+            _mapper.Map(model, existingRecipe);
 
-            _repo.Update(recip);
+            // Atualiza a imagem, se fornecida
+            if (model.Image != null && model.Image.Length > 0)
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    model.Image.CopyTo(memoryStream);
+                    existingRecipe.Image = memoryStream.ToArray();
+                }
+            }
+
+            // Salva as alterações
+            _repo.Update(existingRecipe);
             if (_repo.SaveChanges())
             {
-                return Ok("Receita Atualizada");
+                return Ok("Receita atualizada com sucesso.");
             }
-            return BadRequest("Não foi possivel atualizar Receita");
+
+            return BadRequest("Não foi possível atualizar a receita.");
         }
 
 

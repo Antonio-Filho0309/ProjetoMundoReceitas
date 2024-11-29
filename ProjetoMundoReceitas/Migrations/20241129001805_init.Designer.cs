@@ -10,7 +10,7 @@ using ProjetoMundoReceitas.Data;
 namespace ProjetoMundoReceitas.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241128050457_init")]
+    [Migration("20241129001805_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -39,11 +39,11 @@ namespace ProjetoMundoReceitas.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("RecipeIngredients")
+                    b.PrimitiveCollection<string>("RecipeIngredients")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("RecipeMaterials")
+                    b.PrimitiveCollection<string>("RecipeMaterials")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -51,7 +51,7 @@ namespace ProjetoMundoReceitas.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("RecipePreparation")
+                    b.PrimitiveCollection<string>("RecipePreparation")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -71,10 +71,10 @@ namespace ProjetoMundoReceitas.Migrations
                             RecipeAvaliation = 0,
                             RecipeCust = "Custo medio",
                             RecipeDescription = "MUITO GOSTOSO",
-                            RecipeIngredients = "TESTE TESTE TESTE TESTE",
-                            RecipeMaterials = "TESTE TESTE TESTE",
+                            RecipeIngredients = "[\"Ingrediente 1\",\"Ingrediente 2\",\"Ingrediente 3\"]",
+                            RecipeMaterials = "[\"Material 1\",\"Material 2\"]",
                             RecipeName = "Bolo da Negona",
-                            RecipePreparation = "TESTE",
+                            RecipePreparation = "[\"Passo 1\",\"Passo 2\",\"Passo 3\"]",
                             UserId = 1
                         },
                         new
@@ -83,10 +83,10 @@ namespace ProjetoMundoReceitas.Migrations
                             RecipeAvaliation = 0,
                             RecipeCust = "Custo medio",
                             RecipeDescription = "MUITO GOSTOSO",
-                            RecipeIngredients = "TESTE TESTE TESTE TESTE",
-                            RecipeMaterials = "TESTE TESTE TESTE",
+                            RecipeIngredients = "[\"Ingrediente A\",\"Ingrediente B\"]",
+                            RecipeMaterials = "[\"Material X\",\"Material Y\"]",
                             RecipeName = "Bolo da Negona",
-                            RecipePreparation = "TESTE",
+                            RecipePreparation = "[\"Passo A\",\"Passo B\"]",
                             UserId = 2
                         },
                         new
@@ -95,10 +95,10 @@ namespace ProjetoMundoReceitas.Migrations
                             RecipeAvaliation = 0,
                             RecipeCust = "Custo medio",
                             RecipeDescription = "MUITO GOSTOSO",
-                            RecipeIngredients = "TESTE TESTE TESTE TESTE",
-                            RecipeMaterials = "TESTE TESTE TESTE",
+                            RecipeIngredients = "[\"Ingrediente M\",\"Ingrediente N\"]",
+                            RecipeMaterials = "[\"Material Z\"]",
                             RecipeName = "Bolo da Negona",
-                            RecipePreparation = "TESTE",
+                            RecipePreparation = "[\"Passo M\",\"Passo N\"]",
                             UserId = 3
                         });
                 });

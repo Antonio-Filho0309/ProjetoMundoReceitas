@@ -22,12 +22,26 @@ namespace ProjetoMundoReceitas.Data
                 });
 
             builder.Entity<Recipe>()
-               .HasData(new List<Recipe>
-               {
-                   new Recipe(1, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "TESTE", 1),
-                   new Recipe(2, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "TESTE", 2),
-                   new Recipe(3, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO", "TESTE TESTE TESTE TESTE", "TESTE TESTE TESTE", "TESTE", 3),
-               });
+       .HasData(new List<Recipe>
+       {
+       new Recipe(1, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO",
+           new List<string> { "Ingrediente 1", "Ingrediente 2", "Ingrediente 3" },
+           new List<string> { "Material 1", "Material 2" },
+           new List<string> { "Passo 1", "Passo 2", "Passo 3" },
+           1),
+
+       new Recipe(2, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO",
+           new List<string> { "Ingrediente A", "Ingrediente B" },
+           new List<string> { "Material X", "Material Y" },
+           new List<string> { "Passo A", "Passo B" },
+           2),
+
+       new Recipe(3, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO",
+           new List<string> { "Ingrediente M", "Ingrediente N" },
+           new List<string> { "Material Z" },
+           new List<string> { "Passo M", "Passo N" },
+           3),
+       });
         }
     }
 }
