@@ -9,9 +9,14 @@ namespace ProjetoMundoReceitas.Helpers
     {
         public DataContextProfile()
         {
-            CreateMap<User, UserDto>(); 
-            CreateMap<Recipe, CreateRecipeDto>().ReverseMap();
+            CreateMap<User, CreateUserDto>().ReverseMap();
+            CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<User, UpdateUserDto>().ReverseMap();
+
+
+            CreateMap<CreateRecipeDto, Recipe>().ReverseMap();
             CreateMap<Recipe, UpdateRecipeDto>().ReverseMap();
+                
         }
     }
 }

@@ -164,3 +164,4 @@ C:\Users\bonec\OneDrive\Documentos\toin\C#(PROJETOS)\ProjetoMundoReceitas\Projet
 C:\Users\bonec\OneDrive\Documentos\toin\C#(PROJETOS)\ProjetoMundoReceitas\ProjetoMundoReceitas\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\bonec\OneDrive\Documentos\toin\C#(PROJETOS)\ProjetoMundoReceitas\ProjetoMundoReceitas\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\bonec\OneDrive\Documentos\toin\C#(PROJETOS)\ProjetoMundoReceitas\ProjetoMundoReceitas\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\bonec\OneDrive\Documentos\toin\C#(PROJETOS)\ProjetoMundoReceitas\ProjetoMundoReceitas\bin\Debug\net8.0\FluentValidation.dll

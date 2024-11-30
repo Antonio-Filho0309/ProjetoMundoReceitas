@@ -5,6 +5,8 @@ using ProjetoMundoReceitas.Data;
 using ProjetoMundoReceitas.Dto.User;
 using ProjetoMundoReceitas.Helpers;
 using ProjetoMundoReceitas.Models;
+using ProjetoMundoReceitas.Repositories.Interface;
+using ProjetoMundoReceitas.Service.Interfaces;
 using SQLitePCL;
 
 namespace ProjetoMundoReceitas.Controllers
@@ -13,47 +15,41 @@ namespace ProjetoMundoReceitas.Controllers
     [Route("api/[controller]")]
     public class UserController : Controller
     {
-        private readonly DataContext _context;
-        private readonly IRepository _repo;
-        private readonly IMapper _mapper;
-        public UserController(DataContext context, IRepository repo, IMapper mapper)
+        private readonly IUserService _service;
+        public UserController(IUserService userService)
         {
-            _repo = repo;
-            _context = context;
-            _mapper = mapper;
+          _service = userService;
         }
 
         [HttpGet]
-        public async Task<ActionResult> Get([FromQuery]PageParams pageParams)
+        public async Task<ActionResult> GetAsync()
         {
-            var result = await _repo.GetUsersAsync(pageParams);
-            return Ok(_mapper.Map<IEnumerable<UserDto>>(result));
-        }
+            var result = await _service.GetAllAsync();
+            if (result.IsSucess)
+                return Ok(result);
+            return BadRequest(result);
 
+        }
 
         [HttpPost]
-        public ActionResult Post(User user)
+        public async Task<ActionResult> PostAsync([FromBody]CreateUserDto createUserDto)
         {
-            _repo.Add(user);
-            if (_repo.SaveChanges())
-            {
-                return Ok("Usuário Cadastrado");
-            }
-            return BadRequest("Usuário não cadastrado");
+           var result = await _service.CreateAsync(createUserDto);
+            if(result.IsSucess)
+                return Ok(result);
+
+            return BadRequest(result);
         }
 
-        [HttpPut("{id}")]
-        public ActionResult Put(int id, User user)
+        [HttpPut]
+        public async Task<ActionResult> UpdateAsync([FromBody] UpdateUserDto updateUserDto)
         {
-            var use = _context.Users.AsNoTracking().FirstOrDefault(x => x.Id == id);
-            if (use == null) return BadRequest("Usuário não encontrado");
+            var result = await _service.UpdateAsync(updateUserDto);
+            if (result.IsSucess)
+                return Ok(result);
 
-            _repo.Update(user);
-            if (_repo.SaveChanges())
-            {
-                return Ok("Usuário Atualizado");
-            }
-            return BadRequest("Usuário não Atualizado");
+            return BadRequest(result);
         }
+
     }
 }

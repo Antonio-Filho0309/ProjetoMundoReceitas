@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoMundoReceitas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c4fbfae0c8697949bd35e63520989fed331286c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d566587b6073e5839636c190e9b28ef0b0bbfe7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoMundoReceitas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoMundoReceitas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
