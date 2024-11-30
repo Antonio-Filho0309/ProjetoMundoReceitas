@@ -1,4 +1,6 @@
 ﻿using ProjetoMundoReceitas.Models;
+using ProjetoMundoReceitas.Models.FilterDb;
+using ProjetoMundoReceitas.Pagination;
 
 namespace ProjetoMundoReceitas.Repositories.Interface
 {
@@ -9,6 +11,8 @@ namespace ProjetoMundoReceitas.Repositories.Interface
 
         Task Delete(Recipe recipe);
         Task<ICollection<Recipe>> GetAllRecipers();
+
+        Task<PageBaseResponse<Recipe>> GetPagedAsync(FilterDb request);
 
         Task<Recipe> GeRecipersById(int id);
     }

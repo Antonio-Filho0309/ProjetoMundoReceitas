@@ -4,6 +4,6 @@ namespace ProjetoMundoReceitas.Models.FilterDb
 {
     public class FilterDb : PageBaseRequest
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 }

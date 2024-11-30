@@ -1,6 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjetoMundoReceitas.Data;
+using ProjetoMundoReceitas.Helpers;
 using ProjetoMundoReceitas.Models;
+using ProjetoMundoReceitas.Models.FilterDb;
+using ProjetoMundoReceitas.Pagination;
 using ProjetoMundoReceitas.Repositories.Interface;
 
 namespace ProjetoMundoReceitas.Repositories
@@ -37,6 +40,18 @@ namespace ProjetoMundoReceitas.Repositories
         public  async Task<ICollection<Recipe>> GetAllRecipers()
         {
             return await _context.Recipers.Include(u => u.User).ToListAsync();
+        }
+
+        public async Task<PageBaseResponse<Recipe>> GetPagedAsync(FilterDb request)
+        {
+            var query = _context.Recipers.AsQueryable();
+            if (!string.IsNullOrEmpty(request.Name))
+            {
+                query = query.Where(u => u.RecipeName.Contains(request.Name));
+            }
+
+            var result = await PageBaseResponseHelper.GetResponseAsync<PageBaseResponse<Recipe>, Recipe>(query, request);
+            return result;
         }
 
         public async Task Update(Recipe recipe)

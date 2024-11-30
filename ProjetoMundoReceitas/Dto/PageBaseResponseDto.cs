@@ -1,14 +1,15 @@
-﻿namespace ProjetoMundoReceitas.Dto
+﻿namespace ProjetoLivrariaAPI.Models.Dtos
 {
-    public class PageBaseResponseDto<T>
+    public class PagedBaseResponseDto<T>
     {
-        public PageBaseResponseDto(int totalRegister, List<T> data)
+        public PagedBaseResponseDto(int totalRegisters, List<T> data)
         {
-            TotalRegister = totalRegister;
+            TotalRegisters = totalRegisters;
             Data = data;
+
         }
 
-        public int TotalRegister {  get; private set; }
+        public int TotalRegisters { get; private set; }
         public List<T> Data { get; private set; }
 
     }

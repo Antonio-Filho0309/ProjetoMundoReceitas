@@ -5,6 +5,7 @@ using ProjetoMundoReceitas.Data;
 using ProjetoMundoReceitas.Dto.User;
 using ProjetoMundoReceitas.Helpers;
 using ProjetoMundoReceitas.Models;
+using ProjetoMundoReceitas.Models.FilterDb;
 using ProjetoMundoReceitas.Repositories.Interface;
 using ProjetoMundoReceitas.Service.Interfaces;
 using SQLitePCL;
@@ -29,6 +30,16 @@ namespace ProjetoMundoReceitas.Controllers
                 return Ok(result);
             return BadRequest(result);
 
+        }
+
+        [HttpGet]
+        [Route("paged")]
+        public async Task<ActionResult> GetPagedAsync([FromQuery] FilterDb userFilterDb)
+        {
+            var result = await _service.GetPagedAsync(userFilterDb);
+            if (result.IsSucess)
+                return Ok(result);
+            return BadRequest(result);
         }
 
         [HttpPost]

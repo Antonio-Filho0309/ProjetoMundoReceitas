@@ -40,5 +40,17 @@ namespace ProjetoMundoReceitas.Repositories
         {
             return await _context.Users.FirstOrDefaultAsync(p => p.Id == id);
         }
+
+        public async Task<PageBaseResponse<User>> GetPagedAsync(FilterDb request)
+        {
+            var query = _context.Users.AsQueryable();
+            if (!string.IsNullOrEmpty(request.Name))
+            {
+                query = query.Where(u => u.Name.Contains(request.Name));
+            }
+
+            var result = await PageBaseResponseHelper.GetResponseAsync<PageBaseResponse<User>, User>(query, request);
+            return result;
+        }
     }
 }

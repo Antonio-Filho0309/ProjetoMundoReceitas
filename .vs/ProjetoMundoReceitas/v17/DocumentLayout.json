@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\pagination\\pagebaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\pagination\\pagebaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\repositories\\interface\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\repositories\\interface\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\service\\recipersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\service\\recipersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\dto\\recipe\\updaterecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\dto\\recipe\\updaterecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\helpers\\datacontextprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\helpers\\datacontextprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +19,48 @@
       "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\service\\recipersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\service\\recipersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\service\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\service\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\service\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\service\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\helpers\\pagebaseresponsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\helpers\\pagebaseresponsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\pagination\\pagebaseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\pagination\\pagebaseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\models\\filterdb\\filterdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\models\\filterdb\\filterdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\dto\\pagebaseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\dto\\pagebaseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\helpers\\datacontextprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\helpers\\datacontextprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\dto\\recipe\\updaterecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\dto\\recipe\\updaterecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\dto\\recipe\\createrecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,18 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|solutionrelative:projetomundoreceitas\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F72E364-3D1D-423A-8E91-BEAC2CA2AA2C}|ProjetoMundoReceitas\\ProjetoMundoReceitas.csproj|c:\\users\\bonec\\onedrive\\documentos\\toin\\c#(projetos)\\projetomundoreceitas\\projetomundoreceitas\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,72 +102,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RecipersServices.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\RecipersServices.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Service\\RecipersServices.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\RecipersServices.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Service\\RecipersServices.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwGcAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "RecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\RecipeRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Repositories\\RecipeRepository.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\RecipeRepository.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Repositories\\RecipeRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwDQAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:12:18.598Z",
+              "WhenOpened": "2024-11-29T20:48:50.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IRecipeRepository.cs",
               "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\Interface\\IRecipeRepository.cs",
               "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Repositories\\Interface\\IRecipeRepository.cs",
               "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\Interface\\IRecipeRepository.cs",
               "RelativeToolTip": "ProjetoMundoReceitas\\Repositories\\Interface\\IRecipeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T20:44:28.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataContextProfile.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Helpers\\DataContextProfile.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Helpers\\DataContextProfile.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Helpers\\DataContextProfile.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Helpers\\DataContextProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T19:56:14.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RecipeController.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Controllers\\RecipeController.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Controllers\\RecipeController.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Controllers\\RecipeController.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Controllers\\RecipeController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAwwCwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:46:07.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateRecipeDto.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Dto\\Recipe\\UpdateRecipeDto.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Dto\\Recipe\\UpdateRecipeDto.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Dto\\Recipe\\UpdateRecipeDto.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Dto\\Recipe\\UpdateRecipeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:07:33.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Recipe.cs",
               "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Models\\Recipe.cs",
               "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Models\\Recipe.cs",
@@ -176,33 +141,162 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Service\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Service\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAhAAAA",
+              "DocumentIndex": 0,
+              "Title": "PageBaseRequest.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Pagination\\PageBaseRequest.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Pagination\\PageBaseRequest.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Pagination\\PageBaseRequest.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Pagination\\PageBaseRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:06:08.847Z",
+              "WhenOpened": "2024-11-30T00:40:20.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:46:07.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecipersServices.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\RecipersServices.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Service\\RecipersServices.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\RecipersServices.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Service\\RecipersServices.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAQwEcAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:12:18.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IRecipeService.cs",
               "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\Interfaces\\IRecipeService.cs",
               "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Service\\Interfaces\\IRecipeService.cs",
               "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\Interfaces\\IRecipeService.cs",
               "RelativeToolTip": "ProjetoMundoReceitas\\Service\\Interfaces\\IRecipeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T21:06:02.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FilterDb.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Models\\FilterDb\\FilterDb.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Models\\FilterDb\\FilterDb.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Models\\FilterDb\\FilterDb.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Models\\FilterDb\\FilterDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:42:43.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Program.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Program.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Program.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:53:27.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PageBaseResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Dto\\PageBaseResponseDto.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Dto\\PageBaseResponseDto.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Dto\\PageBaseResponseDto.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Dto\\PageBaseResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:52:41.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\UserServices.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Service\\UserServices.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\UserServices.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Service\\UserServices.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAowCkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:26:33.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageBaseResponseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Helpers\\PageBaseResponseHelper.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Helpers\\PageBaseResponseHelper.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Helpers\\PageBaseResponseHelper.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Helpers\\PageBaseResponseHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:43:16.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PageBaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Pagination\\PageBaseResponse.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Pagination\\PageBaseResponse.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Pagination\\PageBaseResponse.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Pagination\\PageBaseResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:40:39.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DataContextProfile.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Helpers\\DataContextProfile.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Helpers\\DataContextProfile.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Helpers\\DataContextProfile.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Helpers\\DataContextProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T19:56:14.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateRecipeDto.cs",
+              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Dto\\Recipe\\UpdateRecipeDto.cs",
+              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Dto\\Recipe\\UpdateRecipeDto.cs",
+              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Dto\\Recipe\\UpdateRecipeDto.cs",
+              "RelativeToolTip": "ProjetoMundoReceitas\\Dto\\Recipe\\UpdateRecipeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:07:33.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CreateRecipeDto.cs",
               "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Dto\\Recipe\\CreateRecipeDto.cs",
               "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Dto\\Recipe\\CreateRecipeDto.cs",
@@ -210,12 +304,11 @@
               "RelativeToolTip": "ProjetoMundoReceitas\\Dto\\Recipe\\CreateRecipeDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:07:30.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T21:07:30.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Models\\User.cs",
               "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Models\\User.cs",
@@ -223,77 +316,11 @@
               "RelativeToolTip": "ProjetoMundoReceitas\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:17:59.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T20:17:59.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Program.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Program.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Program.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:53:27.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RecipeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\RecipeRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Repositories\\RecipeRepository.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\RecipeRepository.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Repositories\\RecipeRepository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwCwAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:48:50.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:51:45.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\Interface\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Repositories\\Interface\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Repositories\\Interface\\IUserRepository.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Repositories\\Interface\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:44:32.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\UserServices.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Service\\UserServices.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Service\\UserServices.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Service\\UserServices.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:26:33.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Data\\DataContext.cs",
@@ -301,42 +328,7 @@
               "RelativeToolTip": "ProjetoMundoReceitas\\Data\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:59:29.982Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e2e17d67-667f-4c7c-a332-2e0bb73df70a",
-        "Display": 0,
-        "X": 1221,
-        "Y": 264,
-        "Width": 671,
-        "Height": 773,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ProjetoMundoReceitas\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\bonec\\OneDrive\\Documentos\\toin\\C#(PROJETOS)\\ProjetoMundoReceitas\\ProjetoMundoReceitas\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ProjetoMundoReceitas\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCsAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:48:14.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T21:59:29.982Z"
             }
           ]
         }

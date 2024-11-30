@@ -12,6 +12,7 @@ namespace ProjetoMundoReceitas.Repositories.Interface
         Task<ICollection<User>> GetAllUsers();
 
         Task<User> GetUserById(int id);
+        Task<PageBaseResponse<User>> GetPagedAsync(FilterDb request);
 
 
     }

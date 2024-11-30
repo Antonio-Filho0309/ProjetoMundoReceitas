@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using ProjetoLivrariaAPI.Models.Dtos;
 using ProjetoMundoReceitas.Data;
 using ProjetoMundoReceitas.Dto.User;
 using ProjetoMundoReceitas.Models;
+using ProjetoMundoReceitas.Models.FilterDb;
 using ProjetoMundoReceitas.Repositories.Interface;
 using ProjetoMundoReceitas.Service.Interfaces;
 
@@ -33,6 +35,13 @@ namespace ProjetoMundoReceitas.Service
         {
            var user = await _repo.GetAllUsers();
             return ResultService.Ok<ICollection<UserDto>>(_mapper.Map<ICollection<UserDto>>(user));
+        }
+
+        public async Task<ResultService<PagedBaseResponseDto<UserDto>>> GetPagedAsync(FilterDb filterDb)
+        {
+            var userPaged = await _repo.GetPagedAsync(filterDb);
+            var result = new PagedBaseResponseDto<UserDto>(userPaged.TotalRegisters, _mapper.Map<List<UserDto>>(userPaged.Data));
+            return ResultService.Ok(result);
         }
 
         public async Task<ResultService> UpdateAsync(UpdateUserDto updateUserDto)
