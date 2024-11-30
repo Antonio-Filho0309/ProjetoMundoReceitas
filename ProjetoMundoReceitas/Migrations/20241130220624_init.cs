@@ -71,9 +71,9 @@ namespace ProjetoMundoReceitas.Migrations
                 columns: new[] { "Id", "Image", "RecipeAvaliation", "RecipeCust", "RecipeDescription", "RecipeIngredients", "RecipeMaterials", "RecipeName", "RecipePreparation", "UserId" },
                 values: new object[,]
                 {
-                    { 1, null, 0, "Custo medio", "MUITO GOSTOSO", "[\"Ingrediente 1\",\"Ingrediente 2\",\"Ingrediente 3\"]", "[\"Material 1\",\"Material 2\"]", "Bolo da Negona", "[\"Passo 1\",\"Passo 2\",\"Passo 3\"]", 1 },
-                    { 2, null, 0, "Custo medio", "MUITO GOSTOSO", "[\"Ingrediente A\",\"Ingrediente B\"]", "[\"Material X\",\"Material Y\"]", "Bolo da Negona", "[\"Passo A\",\"Passo B\"]", 2 },
-                    { 3, null, 0, "Custo medio", "MUITO GOSTOSO", "[\"Ingrediente M\",\"Ingrediente N\"]", "[\"Material Z\"]", "Bolo da Negona", "[\"Passo M\",\"Passo N\"]", 3 }
+                    { 1, new byte[] { 32, 32, 32 }, 0, "Custo médio", "MUITO GOSTOSO", "[\"Ingrediente 1\",\"Ingrediente 2\",\"Ingrediente 3\"]", "[\"Material 1\",\"Material 2\"]", "Bolo da Negona", "[\"Passo 1\",\"Passo 2\",\"Passo 3\"]", 1 },
+                    { 2, new byte[] { 32, 32, 32 }, 0, "Custo médio", "Delicioso!", "[\"Ingrediente A\",\"Ingrediente B\"]", "[\"Material X\",\"Material Y\"]", "Bolo de Chocolate", "[\"Passo A\",\"Passo B\"]", 2 },
+                    { 3, new byte[] { 32, 32, 32 }, 0, "Custo baixo", "Super saboroso", "[\"Ingrediente M\",\"Ingrediente N\"]", "[\"Material Z\"]", "Bolo de Morango", "[\"Passo M\",\"Passo N\"]", 3 }
                 });
 
             migrationBuilder.CreateIndex(

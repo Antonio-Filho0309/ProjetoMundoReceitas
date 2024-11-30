@@ -65,8 +65,9 @@ namespace ProjetoMundoReceitas.Migrations
                         new
                         {
                             Id = 1,
+                            Image = new byte[] { 32, 32, 32 },
                             RecipeAvaliation = 0,
-                            RecipeCust = "Custo medio",
+                            RecipeCust = "Custo médio",
                             RecipeDescription = "MUITO GOSTOSO",
                             RecipeIngredients = "[\"Ingrediente 1\",\"Ingrediente 2\",\"Ingrediente 3\"]",
                             RecipeMaterials = "[\"Material 1\",\"Material 2\"]",
@@ -77,24 +78,26 @@ namespace ProjetoMundoReceitas.Migrations
                         new
                         {
                             Id = 2,
+                            Image = new byte[] { 32, 32, 32 },
                             RecipeAvaliation = 0,
-                            RecipeCust = "Custo medio",
-                            RecipeDescription = "MUITO GOSTOSO",
+                            RecipeCust = "Custo médio",
+                            RecipeDescription = "Delicioso!",
                             RecipeIngredients = "[\"Ingrediente A\",\"Ingrediente B\"]",
                             RecipeMaterials = "[\"Material X\",\"Material Y\"]",
-                            RecipeName = "Bolo da Negona",
+                            RecipeName = "Bolo de Chocolate",
                             RecipePreparation = "[\"Passo A\",\"Passo B\"]",
                             UserId = 2
                         },
                         new
                         {
                             Id = 3,
+                            Image = new byte[] { 32, 32, 32 },
                             RecipeAvaliation = 0,
-                            RecipeCust = "Custo medio",
-                            RecipeDescription = "MUITO GOSTOSO",
+                            RecipeCust = "Custo baixo",
+                            RecipeDescription = "Super saboroso",
                             RecipeIngredients = "[\"Ingrediente M\",\"Ingrediente N\"]",
                             RecipeMaterials = "[\"Material Z\"]",
-                            RecipeName = "Bolo da Negona",
+                            RecipeName = "Bolo de Morango",
                             RecipePreparation = "[\"Passo M\",\"Passo N\"]",
                             UserId = 3
                         });

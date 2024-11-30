@@ -25,32 +25,46 @@ namespace ProjetoMundoReceitas.Service
         }
         public async Task<ResultService<CreateRecipeDto>> CreateAsync(CreateRecipeDto createRecipeDto)
         {
-            if (createRecipeDto.Image != null && createRecipeDto.Image.Length > 0)
+            if (!string.IsNullOrEmpty(createRecipeDto.Image))
             {
+                // Verifica se a imagem é uma string base64 e converte para byte[]
+                byte[] imageBytes;
 
-                using (var memoryStream = new MemoryStream())
+                // Verifica se a string é uma base64 (comum em imagens codificadas)
+                if (createRecipeDto.Image.StartsWith("data:image"))
                 {
-                    createRecipeDto.Image.CopyTo(memoryStream);
-                    var imageBytes = memoryStream.ToArray();
-
-                    createRecipeDto.Image = null;
-                    var recipe = _mapper.Map<Recipe>(createRecipeDto);
-                    recipe.Image = imageBytes;
-
-                    _repo.Add(recipe);
-
-                    return ResultService.Ok(createRecipeDto);
+                    // Remove o prefixo "data:image/jpeg;base64," ou similar
+                    var base64Data = createRecipeDto.Image.Substring(createRecipeDto.Image.IndexOf(',') + 1);
+                    imageBytes = Convert.FromBase64String(base64Data);
                 }
+                else
+                {
+                    // Caso contrário, trata como se a imagem fosse base64 simples
+                    imageBytes = Convert.FromBase64String(createRecipeDto.Image);
+                }
+
+                // Remove a imagem do DTO para evitar problemas com a serialização
+                createRecipeDto.Image = null;
+
+                // Mapeia o DTO para a entidade Recipe
+                var recipe = _mapper.Map<Recipe>(createRecipeDto);
+                recipe.Image = imageBytes; // Atribui os bytes da imagem à propriedade Image da entidade
+
+                // Adiciona a receita no repositório
+                await _repo.Add(recipe);
+
+                return ResultService.Ok(createRecipeDto);
             }
             else
             {
                 // Caso não tenha imagem
                 var recipe = _mapper.Map<Recipe>(createRecipeDto);
-                _repo.Add(recipe);
+                await _repo.Add(recipe);
 
                 return ResultService.Ok(createRecipeDto);
             }
         }
+
 
         public async Task<ResultService> Delete(int id)
         {

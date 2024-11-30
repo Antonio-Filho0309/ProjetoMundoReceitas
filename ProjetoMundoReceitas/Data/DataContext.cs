@@ -21,28 +21,37 @@ namespace ProjetoMundoReceitas.Data
                     new User(5, "Lucas@gmail.com" , "1234", "Lucas"),
                 });
 
-            builder.Entity<Recipe>()
-       .HasData(new List<Recipe>
-       {
-       new Recipe(1, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO",
-           new List<string> { "Ingrediente 1", "Ingrediente 2", "Ingrediente 3" },
-           new List<string> { "Material 1", "Material 2" },
-           new List<string> { "Passo 1", "Passo 2", "Passo 3" },
-           1),
 
-       new Recipe(2, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO",
-           new List<string> { "Ingrediente A", "Ingrediente B" },
-           new List<string> { "Material X", "Material Y" },
-           new List<string> { "Passo A", "Passo B" },
-           2),
-
-       new Recipe(3, "Bolo da Negona", "Custo medio", "MUITO GOSTOSO",
-           new List<string> { "Ingrediente M", "Ingrediente N" },
-           new List<string> { "Material Z" },
-           new List<string> { "Passo M", "Passo N" },
-           3),
-       });
+                builder.Entity<Recipe>().HasData(
+                new Recipe(1, "Bolo da Negona",
+                    new byte[] { 0x20, 0x20, 0x20 }, // Placeholder para imagem em byte[]
+                    "Custo médio",
+                    "MUITO GOSTOSO",
+                    new List<string> { "Ingrediente 1", "Ingrediente 2", "Ingrediente 3" },
+                    new List<string> { "Material 1", "Material 2" },
+                    new List<string> { "Passo 1", "Passo 2", "Passo 3" },
+                    1),
+                new Recipe(2, "Bolo de Chocolate",
+                    new byte[] { 0x20, 0x20, 0x20 }, // Placeholder para imagem em byte[]
+                    "Custo médio",
+                    "Delicioso!",
+                    new List<string> { "Ingrediente A", "Ingrediente B" },
+                    new List<string> { "Material X", "Material Y" },
+                    new List<string> { "Passo A", "Passo B" },
+                    2),
+                new Recipe(3, "Bolo de Morango",
+                    new byte[] { 0x20, 0x20, 0x20 }, // Placeholder para imagem em byte[]
+                    "Custo baixo",
+                    "Super saboroso",
+                    new List<string> { "Ingrediente M", "Ingrediente N" },
+                    new List<string> { "Material Z" },
+                    new List<string> { "Passo M", "Passo N" },
+                    3)
+            );
+            }
         }
-    }
+
+
 }
+
 

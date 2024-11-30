@@ -17,7 +17,7 @@
 
         public int UserId { get; set; }
 
-        public IFormFile? Image { get; set; }
+        public string? Image { get; set; }
 
     }
 }

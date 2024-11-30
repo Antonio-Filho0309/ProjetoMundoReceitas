@@ -4,11 +4,12 @@
     {
         public Recipe() { }
 
-        public Recipe(int id, string recipeName, string recipeCust, string recipeDescription, List<string> recipeIngredients, List<string> recipeMaterials, List<string> recipePreparation, int userId)
+        public Recipe(int id, string recipeName, byte[] image, string recipeCust, string recipeDescription, List<string> recipeIngredients, List<string> recipeMaterials, List<string> recipePreparation, int userId)
         {
             Id = id;
             RecipeName = recipeName;
             RecipeCust = recipeCust;
+            Image = image;
             RecipeDescription = recipeDescription;
             RecipeIngredients = recipeIngredients;
             RecipeMaterials = recipeMaterials;
